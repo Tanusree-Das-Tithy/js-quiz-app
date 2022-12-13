@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="myCss.css" />
+</head>
+
+<body id="contact">
+   
+    <section id="personal">
+       
+         
+
+         <!--    Guide Section    -->
+         <div id="guide">
+            <h1> Take a Quiz</h1>
+             <h2>Quiz Guide</h2>
+             <h4>1. You Have Only 5 Seconds For Each Questions.</h4>
+             <h4>2. If you want to reSelect Your Answer, select previous button</h4>
+             <h4>3. You'll Get Points On The Basic Of Your Correct Answers.</h4>
+             <h4>4. You Can't Exit From The Quiz While You Are Playing.</h4>
+        <div class="info">
+            Input your name:<br><input class= "person" type="text" id="name" value="" ><br>
+        <br>Input your mail:<br><input class= "person" type="email" id="mail" value="">
+          </div>
+          <br>
+          <div>
+            
+            <button id="Start" class="buttons">Continue</button>
+            
+        </div>
+    </section>
+    
+    <section class="main" id="quiz">
+        <div id="timer" class="timer">
+            <p class="timer">Time 15 seconds <p id="time"></p></p>
+            
+               
+    
+            
+            </div>
+        <div class="container">
+            <div id="ques1"> Hello<br></div>
+        
+            <input type="text" id="text1" value="" class= "textans" >
+         <br><br>
+            <div class="col">
+                <p id="questionBox">
+                    1) Lorem ipsum dolor sit amet, consectetur adipisicing elit Debitis?
+                </p>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="first" class="answer" value="a1" required>
+                <label for="first" id="a_text">Testing 1</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="second" class="answer" value="b1" required>
+                <label for="second" id="b_text">Testing 2</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="third" class="answer" value="c1">
+                <label for="third"id="c_text">Testing 3</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="fourth" class="answer" value="d1">
+                <label for="fourth" id="d_text">Testing 4</label>
+            </div><br><br>
+            <label for="err" id="ques3">Which one is correct?</label>
+            <br><br>
+            <select id="err" class="option">
+                <option id="a" class="opt" value="a2">options a</option>
+              <option id="a2" class="opt" value="a2">options a</option>
+              <option id="b2" class="opt" value="b2">options b</option>
+              <option id= "c2" class="opt" value="c2">option c</option>
+              <option id="d2" class="opt" value="d2">option d</option>
+            </select>
+            <br><br>
+            <button id="mit" class="back" onclick="myfunc()">Previous </button>
+            <button id="submit" class="buttons">Next</button>
+
+        </div>
+        <div id="result">
+            <button id="startAgain">Start Again</button>
+        </div>
+
+    </section>
+    <script src="mySrc.js"></script>
+</body>
+
+</html>

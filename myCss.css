@@ -1,0 +1,157 @@
+body{
+    background-color: white;
+    font-size:20px;
+   font-family: 'Poppins',sans-serif;
+   align-items: center;
+   justify-content: center;
+   display:flex;
+
+ }
+ h1{
+    margin:15px;
+    text-align:center;
+    padding:1rem;
+    width:600px;
+    background-color: rgb(185, 99, 185) ;
+ }
+
+h2,h4{
+    margin-top:8px;
+   align-items: center;
+}
+
+.main{
+    width:600px;
+    border:3px solid blue;
+    height: 450px;
+    text-align:left;
+    padding:50px;
+    margin:50px;
+   background-color: wheat;
+    align-items: center;
+    
+ }
+.info{
+    color:blue;
+    font-weight: bold;
+}
+
+.buttons:hover {
+    background-color: rgb(34, 6, 53);
+}
+
+
+
+.buttons{
+    font-size: 20px;
+    text-align: right;
+    align-items: right;
+    align-self: right;
+    float:right;
+    background-color: rgb(64, 109, 207);
+    color: white;
+    display: flex;
+    margin:auto;
+    
+  }
+
+.person{
+    
+    
+    background-color: rgb(228, 248, 246);
+    width:400px;
+    height:20px;
+    font-size:15px;
+    padding:4px;
+    border-radius: 10px;
+    border:0px;
+    margin-top:8px;
+}
+
+.person:focus{
+    outline: none;
+}
+
+  .back{
+    font-size: 20px;
+    text-align: left;
+    align-items: left;
+    align-self: left;
+    float:left;
+    background-color: rgb(64, 109, 207);
+    color: white;
+    display: flex;
+    margin:auto;
+  }
+
+  .back:hover {
+    background-color: red;
+}
+
+.timer {
+    font-size: 20px;
+    display: grid;
+    place-items: center;
+    color: red;
+    margin: 0px;
+    float:right;
+    margin-top:0px;
+}
+.timer #time{
+    height: 35px;
+    width: 30px;
+    background: #fff;
+    color: red;
+    text-align:center;
+    border: 1px solid #b0c4d8;
+    border-radius: 15px 7px;
+    margin: 0 px;
+    float:right;
+}
+
+.textans{
+    width: 300px;
+    height:20px;
+    font-size: 15px;
+    padding:4px;
+    border-radius: 10px;
+    border:0px;
+    margin-top:8px;
+    box-shadow: 5px 5px rgb(239, 241, 241);
+}
+
+.answer{
+    font-size: 12px;
+    margin-top:10px;
+}
+.textans:focus{
+    outline: none;
+}
+
+.opt{
+    font-size:15px;   
+    width: 300px;
+    height:40px;
+    font-size: 20px;
+    padding:4px;
+    border-radius: 10px;
+    border:0px;
+    margin-top:8px;
+}
+.option{
+    font-size:15px;   
+    width: 300px;
+    height:40px;
+    font-size: 20px;
+    padding:4px;
+    border-radius: 10px;
+    border:0px;
+    margin-top:8px;
+}
+
+.opt:focus{
+    outline: none;
+}
+p{
+    font-size:20px;
+}
