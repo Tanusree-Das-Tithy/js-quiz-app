@@ -24,6 +24,7 @@
              <h4>3. You'll Get Points On The Basic Of Your Correct Answers.</h4>
              <h4>4. You Can't Exit From The Quiz While You Are Playing.</h4>
         <div class="info">
+                  <!--    Don't use so many br tags. style this with css    -->
             Input your name:<br><input class= "person" type="text" id="name" value="" ><br>
         <br>Input your mail:<br><input class= "person" type="email" id="mail" value="">
           </div>
@@ -36,7 +37,9 @@
     </section>
     
     <section class="main" id="quiz">
+                  <!-- class and id should not be same name    -->
         <div id="timer" class="timer">
+            <!-- cwhy do we have a div and p with same class ? can be solved with parent class. you can select child tag with parent classa   -->
             <p class="timer">Time 15 seconds <p id="time"></p></p>
             
                
@@ -44,6 +47,7 @@
             
             </div>
         <div class="container">
+            <!-- loop the questions from array instead of writing manually   -->
             <div id="ques1"> Hello<br></div>
         
             <input type="text" id="text1" value="" class= "textans" >
@@ -72,6 +76,7 @@
             <label for="err" id="ques3">Which one is correct?</label>
             <br><br>
             <select id="err" class="option">
+                <!-- why two answers have same values ? also, why we need same class name for every option. one parent class is enough   -->
                 <option id="a" class="opt" value="a2">options a</option>
               <option id="a2" class="opt" value="a2">options a</option>
               <option id="b2" class="opt" value="b2">options b</option>
